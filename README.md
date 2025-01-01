@@ -39,16 +39,8 @@ However, the remaining flip-flops should be made ready to toggle only when all l
 5.	For different input combinations generate the timing diagram.
 
 
-**PROGRAM**
-
-/* Program for flipflops and verify its truth table in quartus using Verilog programming. 
-
-Developed by: Trisha Priyadarshni Parida
-
-RegisterNumber: 212224230293
-
-*/
-```
+**PROGRAM** 
+Program for flipflops and verify its truth table in quartus using Verilog programming
 module EXP11(out,clk,rst);
 input clk,rst;
 output reg [3:0]out;
